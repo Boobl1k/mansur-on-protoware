@@ -1,4 +1,4 @@
-package task1;
+package org.example.algo.task1;
 
 import java.util.ArrayList;
 
