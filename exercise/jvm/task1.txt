@@ -1,0 +1,26 @@
+output:
+
+Initial Memory:
+Total Memory: 512 MB
+Max Memory: 8160 MB
+Free Memory: 508 MB
+Used Memory: 3 MB
+---------------------------
+Memory after creating ArrayList:
+Total Memory: 1536 MB
+Max Memory: 8160 MB
+Free Memory: 1213 MB
+Used Memory: 322 MB
+---------------------------
+Memory after creating array:
+Total Memory: 4188 MB
+Max Memory: 8160 MB
+Free Memory: 3595 MB
+Used Memory: 592 MB
+---------------------------
+Memory after clearing and garbage collection:
+Total Memory: 56 MB
+Max Memory: 8160 MB
+Free Memory: 53 MB
+Used Memory: 2 MB
+---------------------------
