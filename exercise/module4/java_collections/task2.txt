@@ -1,0 +1,27 @@
+Contents of HashMap:
+33: Peter
+11: John
+22: Maria
+
+Contents of TreeMap:
+11: John
+22: Maria
+33: Peter
+
+Contents of HashMap after adding duplicate element:
+33: Peter
+11: John
+22: Maria
+
+Contents of TreeMap after adding duplicate element:
+11: John
+22: Maria
+33: Peter
+
+
+
+Benchmark                    Mode  Cnt   Score    Error  Units
+MapsBenchmark.searchHashMap  avgt    3  18.548 ± 31.130  ns/op
+MapsBenchmark.searchTreeMap  avgt    3  78.459 ± 65.921  ns/op
+
+TreeMap ищет дольше (logN), так как вместо константного поиска по хэшу, он проходит по дереву до его листа.

@@ -1,0 +1,153 @@
+Benchmark                                          (size)    Mode  Cnt         Score           Error   Units
+ListsBenchmark.addArrayListBeginning              1000000   thrpt    3        ≈ 10⁻⁶                  ops/ns
+ListsBenchmark.addArrayListEnd                    1000000   thrpt    3        ≈ 10⁻⁴                  ops/ns
+ListsBenchmark.addArrayListMiddle                 1000000   thrpt    3        ≈ 10⁻⁵                  ops/ns
+ListsBenchmark.addLinkedListBeginning             1000000   thrpt    3        ≈ 10⁻⁴                  ops/ns
+ListsBenchmark.addLinkedListEnd                   1000000   thrpt    3        ≈ 10⁻⁴                  ops/ns
+ListsBenchmark.addLinkedListMiddle                1000000   thrpt    3        ≈ 10⁻⁷                  ops/ns
+ListsBenchmark.removeArrayListBeginning           1000000   thrpt    3        ≈ 10⁻⁶                  ops/ns
+ListsBenchmark.removeArrayListEnd                 1000000   thrpt    3        ≈ 10⁻⁴                  ops/ns
+ListsBenchmark.removeArrayListMiddle              1000000   thrpt    3        ≈ 10⁻⁵                  ops/ns
+ListsBenchmark.removeLinkedListBeginning          1000000   thrpt    3        ≈ 10⁻⁴                  ops/ns
+ListsBenchmark.removeLinkedListEnd                1000000   thrpt    3        ≈ 10⁻⁴                  ops/ns
+ListsBenchmark.removeLinkedListMiddle             1000000   thrpt    3        ≈ 10⁻⁶                  ops/ns
+ListsBenchmark.addArrayListBeginning              1000000    avgt    3   1893543.028 ±  42132726.639   ns/op
+ListsBenchmark.addArrayListEnd                    1000000    avgt    3      4592.389 ±      4445.352   ns/op
+ListsBenchmark.addArrayListMiddle                 1000000    avgt    3   1622186.228 ±  42245804.269   ns/op
+ListsBenchmark.addLinkedListBeginning             1000000    avgt    3      7176.167 ±      7649.628   ns/op
+ListsBenchmark.addLinkedListEnd                   1000000    avgt    3      4883.611 ±      6494.767   ns/op
+ListsBenchmark.addLinkedListMiddle                1000000    avgt    3   6467750.906 ±  64860296.115   ns/op
+ListsBenchmark.removeArrayListBeginning           1000000    avgt    3    556475.294 ±    243016.233   ns/op
+ListsBenchmark.removeArrayListEnd                 1000000    avgt    3      9030.556 ±      8859.983   ns/op
+ListsBenchmark.removeArrayListMiddle              1000000    avgt    3   1489283.500 ±  38252067.269   ns/op
+ListsBenchmark.removeLinkedListBeginning          1000000    avgt    3      5993.583 ±      5340.305   ns/op
+ListsBenchmark.removeLinkedListEnd                1000000    avgt    3      6416.006 ±      1031.647   ns/op
+ListsBenchmark.removeLinkedListMiddle             1000000    avgt    3   6057732.422 ±  42725103.341   ns/op
+ListsBenchmark.addArrayListBeginning              1000000  sample   11    583866.182 ±     89127.509   ns/op
+ListsBenchmark.addArrayListBeginning:p0.00        1000000  sample         539648.000                   ns/op
+ListsBenchmark.addArrayListBeginning:p0.50        1000000  sample         557056.000                   ns/op
+ListsBenchmark.addArrayListBeginning:p0.90        1000000  sample         716185.600                   ns/op
+ListsBenchmark.addArrayListBeginning:p0.95        1000000  sample         718848.000                   ns/op
+ListsBenchmark.addArrayListBeginning:p0.99        1000000  sample         718848.000                   ns/op
+ListsBenchmark.addArrayListBeginning:p0.999       1000000  sample         718848.000                   ns/op
+ListsBenchmark.addArrayListBeginning:p0.9999      1000000  sample         718848.000                   ns/op
+ListsBenchmark.addArrayListBeginning:p1.00        1000000  sample         718848.000                   ns/op
+ListsBenchmark.addArrayListEnd                    1000000  sample   10      4700.800 ±       510.416   ns/op
+ListsBenchmark.addArrayListEnd:p0.00              1000000  sample           4184.000                   ns/op
+ListsBenchmark.addArrayListEnd:p0.50              1000000  sample           4764.000                   ns/op
+ListsBenchmark.addArrayListEnd:p0.90              1000000  sample           5212.000                   ns/op
+ListsBenchmark.addArrayListEnd:p0.95              1000000  sample           5224.000                   ns/op
+ListsBenchmark.addArrayListEnd:p0.99              1000000  sample           5224.000                   ns/op
+ListsBenchmark.addArrayListEnd:p0.999             1000000  sample           5224.000                   ns/op
+ListsBenchmark.addArrayListEnd:p0.9999            1000000  sample           5224.000                   ns/op
+ListsBenchmark.addArrayListEnd:p1.00              1000000  sample           5224.000                   ns/op
+ListsBenchmark.addArrayListMiddle                 1000000  sample   12    287701.333 ±     20617.853   ns/op
+ListsBenchmark.addArrayListMiddle:p0.00           1000000  sample         268800.000                   ns/op
+ListsBenchmark.addArrayListMiddle:p0.50           1000000  sample         283136.000                   ns/op
+ListsBenchmark.addArrayListMiddle:p0.90           1000000  sample         322662.400                   ns/op
+ListsBenchmark.addArrayListMiddle:p0.95           1000000  sample         332800.000                   ns/op
+ListsBenchmark.addArrayListMiddle:p0.99           1000000  sample         332800.000                   ns/op
+ListsBenchmark.addArrayListMiddle:p0.999          1000000  sample         332800.000                   ns/op
+ListsBenchmark.addArrayListMiddle:p0.9999         1000000  sample         332800.000                   ns/op
+ListsBenchmark.addArrayListMiddle:p1.00           1000000  sample         332800.000                   ns/op
+ListsBenchmark.addLinkedListBeginning             1000000  sample   12      8014.000 ±       653.155   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.00       1000000  sample           7064.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.50       1000000  sample           8076.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.90       1000000  sample           8568.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.95       1000000  sample           8592.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.99       1000000  sample           8592.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.999      1000000  sample           8592.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p0.9999     1000000  sample           8592.000                   ns/op
+ListsBenchmark.addLinkedListBeginning:p1.00       1000000  sample           8592.000                   ns/op
+ListsBenchmark.addLinkedListEnd                   1000000  sample   10      4789.600 ±       900.127   ns/op
+ListsBenchmark.addLinkedListEnd:p0.00             1000000  sample           3576.000                   ns/op
+ListsBenchmark.addLinkedListEnd:p0.50             1000000  sample           4748.000                   ns/op
+ListsBenchmark.addLinkedListEnd:p0.90             1000000  sample           5583.200                   ns/op
+ListsBenchmark.addLinkedListEnd:p0.95             1000000  sample           5592.000                   ns/op
+ListsBenchmark.addLinkedListEnd:p0.99             1000000  sample           5592.000                   ns/op
+ListsBenchmark.addLinkedListEnd:p0.999            1000000  sample           5592.000                   ns/op
+ListsBenchmark.addLinkedListEnd:p0.9999           1000000  sample           5592.000                   ns/op
+ListsBenchmark.addLinkedListEnd:p1.00             1000000  sample           5592.000                   ns/op
+ListsBenchmark.addLinkedListMiddle                1000000  sample   12   7138304.000 ±  10063498.345   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.00          1000000  sample        2527232.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.50          1000000  sample        2775040.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.90          1000000  sample       24215552.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.95          1000000  sample       25493504.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.99          1000000  sample       25493504.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.999         1000000  sample       25493504.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p0.9999        1000000  sample       25493504.000                   ns/op
+ListsBenchmark.addLinkedListMiddle:p1.00          1000000  sample       25493504.000                   ns/op
+ListsBenchmark.removeArrayListBeginning           1000000  sample   12    592810.667 ±     83923.719   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.00     1000000  sample         525312.000                   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.50     1000000  sample         585728.000                   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.90     1000000  sample         732979.200                   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.95     1000000  sample         771072.000                   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.99     1000000  sample         771072.000                   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.999    1000000  sample         771072.000                   ns/op
+ListsBenchmark.removeArrayListBeginning:p0.9999   1000000  sample         771072.000                   ns/op
+ListsBenchmark.removeArrayListBeginning:p1.00     1000000  sample         771072.000                   ns/op
+ListsBenchmark.removeArrayListEnd                 1000000  sample   10      7793.600 ±      1229.159   ns/op
+ListsBenchmark.removeArrayListEnd:p0.00           1000000  sample           6120.000                   ns/op
+ListsBenchmark.removeArrayListEnd:p0.50           1000000  sample           7780.000                   ns/op
+ListsBenchmark.removeArrayListEnd:p0.90           1000000  sample           9235.200                   ns/op
+ListsBenchmark.removeArrayListEnd:p0.95           1000000  sample           9344.000                   ns/op
+ListsBenchmark.removeArrayListEnd:p0.99           1000000  sample           9344.000                   ns/op
+ListsBenchmark.removeArrayListEnd:p0.999          1000000  sample           9344.000                   ns/op
+ListsBenchmark.removeArrayListEnd:p0.9999         1000000  sample           9344.000                   ns/op
+ListsBenchmark.removeArrayListEnd:p1.00           1000000  sample           9344.000                   ns/op
+ListsBenchmark.removeArrayListMiddle              1000000  sample   12   1176277.333 ±   4019463.475   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.00        1000000  sample         254976.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.50        1000000  sample         268800.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.90        1000000  sample        7887104.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.95        1000000  sample       11141120.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.99        1000000  sample       11141120.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.999       1000000  sample       11141120.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p0.9999      1000000  sample       11141120.000                   ns/op
+ListsBenchmark.removeArrayListMiddle:p1.00        1000000  sample       11141120.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning          1000000  sample   12      5391.000 ±       876.035   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.00    1000000  sample           3484.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.50    1000000  sample           5436.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.90    1000000  sample           6184.800                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.95    1000000  sample           6216.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.99    1000000  sample           6216.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.999   1000000  sample           6216.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p0.9999  1000000  sample           6216.000                   ns/op
+ListsBenchmark.removeLinkedListBeginning:p1.00    1000000  sample           6216.000                   ns/op
+ListsBenchmark.removeLinkedListEnd                1000000  sample   12      5662.667 ±       560.470   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.00          1000000  sample           5032.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.50          1000000  sample           5636.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.90          1000000  sample           6352.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.95          1000000  sample           6400.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.99          1000000  sample           6400.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.999         1000000  sample           6400.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p0.9999        1000000  sample           6400.000                   ns/op
+ListsBenchmark.removeLinkedListEnd:p1.00          1000000  sample           6400.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle             1000000  sample   10   4362240.000 ±   3349785.376   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.00       1000000  sample        2707456.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.50       1000000  sample        3397632.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.90       1000000  sample        9263513.600                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.95       1000000  sample        9617408.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.99       1000000  sample        9617408.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.999      1000000  sample        9617408.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p0.9999     1000000  sample        9617408.000                   ns/op
+ListsBenchmark.removeLinkedListMiddle:p1.00       1000000  sample        9617408.000                   ns/op
+ListsBenchmark.addArrayListBeginning              1000000      ss    3   8617891.333 ± 252313490.373   ns/op
+ListsBenchmark.addArrayListEnd                    1000000      ss    3      4829.667 ±     15773.451   ns/op
+ListsBenchmark.addArrayListMiddle                 1000000      ss    3    343104.000 ±   1145433.347   ns/op
+ListsBenchmark.addLinkedListBeginning             1000000      ss    3      8700.000 ±     36663.978   ns/op
+ListsBenchmark.addLinkedListEnd                   1000000      ss    3      5148.000 ±      2305.721   ns/op
+ListsBenchmark.addLinkedListMiddle                1000000      ss    3   2853250.333 ±   3708945.934   ns/op
+ListsBenchmark.removeArrayListBeginning           1000000      ss    3    570278.667 ±    792945.851   ns/op
+ListsBenchmark.removeArrayListEnd                 1000000      ss    3      8570.333 ±       612.276   ns/op
+ListsBenchmark.removeArrayListMiddle              1000000      ss    3    277056.000 ±    284682.407   ns/op
+ListsBenchmark.removeLinkedListBeginning          1000000      ss    3      6769.000 ±      2729.068   ns/op
+ListsBenchmark.removeLinkedListEnd                1000000      ss    3      6769.667 ±     16233.842   ns/op
+ListsBenchmark.removeLinkedListMiddle             1000000      ss    3  13240396.667 ± 220619872.192   ns/op
+
+
+Добавление в начало списка: LinkedList быстрее, потому что не требует перемещения элементов.
+Добавление в конец списка: Мгновенно для обоих списков.
+Добавление в середину списка: Очень медленно для обоих списков. Линкед лист долго ищет середину, массив долго двигает элементы.
+Удаление из начала списка: LinkedList быстрее, так как это просто удаление первого элемента, а массив двигает элементы.
+Удаление из конца списка: Мгновенно для обоих списков.
+Удаление из середины списка: Очень медленно для обоих списков. Линкед лист долго ищет середину, массив долго двигает элементы.
